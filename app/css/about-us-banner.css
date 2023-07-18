@@ -1,12 +1,1 @@
-.section-about-us-banner .about-us-banner .about-us-banner-content {
-    flex: 1 1 0%;
-    padding-left: 100px
-}
-.section-about-us-banner .about-us-banner .about-us-banner-img {
-    width: 50%
-}
-.section-about-us-banner .about-us-banner .about-us-banner-img img {
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover
-}
+
