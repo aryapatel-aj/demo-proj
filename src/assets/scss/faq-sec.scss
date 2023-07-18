@@ -1,0 +1,58 @@
+.section-faq-sec {
+    .container {
+        @apply max-w-[1579px];
+        .faq-sec-row {
+            .faq-sec-left {
+                @apply md:max-w-[206px] w-full md:mr-5 lg:mr-10 xl:mr-[60px] 2xl:mr-[89px];
+                ul {
+                    @apply flex justify-center gap-5 md:flex-col md:gap-0;
+                    li {
+                        @apply md:pb-6 lg:pb-7 xl:pb-9 2xl:pb-[45px];
+                        a {
+                            @apply font-jost text-font18 md:text-font20 lg:text-font21 xl:text-font23 2xl:text-font25 font-normal text-black;
+                            line-height: 120%;
+                        }
+                        &:last-child {
+                            @apply pb-0;
+                        }
+                    }
+                }
+            }
+            .faq-sec-right {
+                @apply flex-1 pt-6 border-t border-t-black md:pt-0 md:border-0;
+                .faq-box {
+                    @apply md:border-l border-black pb-10 md:pb-12 lg:pb-14 xl:pb-16 2xl:pb-[70px];
+                    .faq-title {
+                        @apply pb-[30px] md:pl-[30px] lg:pl-10 xl:pl-[60px] 2xl:pl-[77px];
+                        h3 {
+                            @apply pb-[5px];
+                        }
+                    }
+                    .faq-box-main {
+                        .faq-que {
+                            @apply py-[18px] lg:py-5 xl:py-[25px] md:pl-[30px] lg:pl-10 xl:pl-[60px] 2xl:pl-[77px] border-b border-b-black;
+                            .faq-txt {
+                                @apply flex gap-[19px] items-center;
+                                svg {
+                                    @apply w-[23px] h-[23px];
+                                }
+                                h4 {
+                                    @apply flex-1;
+                                }
+                                .minus {
+                                    @apply hidden;
+                                }
+                            }
+                        }
+                        .faq-ans {
+                            @apply hidden pt-[19px] pl-[41px] max-w-[749px] w-full;
+                        }
+                    }
+                    &:last-child {
+                        @apply pb-0;
+                    }
+                }
+            }
+        }
+    }
+}

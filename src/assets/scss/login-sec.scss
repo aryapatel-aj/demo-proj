@@ -1,0 +1,42 @@
+.login-sec {
+    .login-sec-row {
+        .login-sec-right {
+            .login-form-sec {
+                .login-form-title {
+                    @apply pb-[35px];
+                    h2 {
+                        @apply 2xl:text-font39 pb-[33px];
+                    }
+                }
+                .login-form {
+                    .login-fuild {
+                        .form-fild {
+                            @apply pb-[30px];
+                            label {
+                                @apply font-jost text-font16 font-normal pb-[13px] text-blackesh-1000 inline-block;
+                                line-height: 1;
+                            }
+                            &:last-child {
+                                @apply pb-0;
+                            }
+                        }
+                    }
+                    .forgot {
+                        @apply flex justify-end mt-[15px];
+                    }
+                    .submmit-btn {
+                        @apply mt-[35px] pb-[15px];
+                        &:last-child {
+                            @apply pb-0 mb-0;
+                        }
+                    }
+                    p {
+                        a {
+                            @apply underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

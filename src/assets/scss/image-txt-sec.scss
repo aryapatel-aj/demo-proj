@@ -1,0 +1,28 @@
+.section-image-txt-sec {
+    .container-fluid {
+        @apply px-[30px] md:px-10 lg:px-0;
+        .image-txt-sec-row {
+            .image-txt-sec-content {
+                @apply flex-1;
+                .image-txt-sec-main-content {
+                    @apply lg:max-w-[615px] lg:px-5 w-full mx-auto my-auto;
+                    // h2 {
+                    //     @apply mb-5 md:mb-6 lg:mb-7 xl:mb-[33px];
+                    // }
+                    // p {
+                    //     @apply mb-4 md:mb-5 lg:mb-6 xl:mb-[26px];
+                    //     &:last-child {
+                    //         @apply mb-0;
+                    //     }
+                    // }
+                }
+            }
+            .image-txt-sec-img {
+                @apply w-full lg:w-[50%];
+                img {
+                    @apply w-full h-full object-cover;
+                }
+            }
+        }
+    }
+}

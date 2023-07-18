@@ -1,0 +1,215 @@
+.section-faq-sec .container {
+  max-width: 1579px;
+}
+.section-faq-sec .container .faq-sec-row .faq-sec-left {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-left {
+    margin-right: 1.25rem;
+    max-width: 206px;
+  }
+}
+@media (min-width: 1024px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-left {
+    margin-right: 2.5rem;
+  }
+}
+@media (min-width: 1280px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-left {
+    margin-right: 60px;
+  }
+}
+@media (min-width: 1536px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-left {
+    margin-right: 89px;
+  }
+}
+.section-faq-sec .container .faq-sec-row .faq-sec-left ul {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+}
+@media (min-width: 768px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-left ul {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .section-faq-sec .container .faq-sec-row .faq-sec-left ul li {
+    padding-bottom: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-left ul li {
+    padding-bottom: 1.75rem;
+  }
+}
+@media (min-width: 1280px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-left ul li {
+    padding-bottom: 2.25rem;
+  }
+}
+@media (min-width: 1536px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-left ul li {
+    padding-bottom: 45px;
+  }
+}
+.section-faq-sec .container .faq-sec-row .faq-sec-left ul li a {
+  font-family: Jost, sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+@media (min-width: 768px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-left ul li a {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-left ul li a {
+    font-size: 21px;
+    line-height: 31px;
+  }
+}
+@media (min-width: 1280px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-left ul li a {
+    font-size: 23px;
+    line-height: 32px;
+  }
+}
+@media (min-width: 1536px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-left ul li a {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+.section-faq-sec .container .faq-sec-row .faq-sec-left ul li a {
+  line-height: 120%;
+}
+.section-faq-sec .container .faq-sec-row .faq-sec-left ul li:last-child {
+  padding-bottom: 0px;
+}
+.section-faq-sec .container .faq-sec-row .faq-sec-right {
+  flex: 1 1 0%;
+  border-top-width: 1px;
+  --tw-border-opacity: 1;
+  border-top-color: rgb(0 0 0 / var(--tw-border-opacity));
+  padding-top: 1.5rem;
+}
+@media (min-width: 768px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-right {
+    border-width: 0px;
+    padding-top: 0px;
+  }
+}
+.section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  padding-bottom: 2.5rem;
+}
+@media (min-width: 768px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box {
+    border-left-width: 1px;
+    padding-bottom: 3rem;
+  }
+}
+@media (min-width: 1024px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box {
+    padding-bottom: 3.5rem;
+  }
+}
+@media (min-width: 1280px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box {
+    padding-bottom: 4rem;
+  }
+}
+@media (min-width: 1536px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box {
+    padding-bottom: 70px;
+  }
+}
+.section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box .faq-title {
+  padding-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box .faq-title {
+    padding-left: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box .faq-title {
+    padding-left: 2.5rem;
+  }
+}
+@media (min-width: 1280px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box .faq-title {
+    padding-left: 60px;
+  }
+}
+@media (min-width: 1536px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box .faq-title {
+    padding-left: 77px;
+  }
+}
+.section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box .faq-title h3 {
+  padding-bottom: 5px;
+}
+.section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box .faq-box-main .faq-que {
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(0 0 0 / var(--tw-border-opacity));
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+@media (min-width: 768px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box .faq-box-main .faq-que {
+    padding-left: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box .faq-box-main .faq-que {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 2.5rem;
+  }
+}
+@media (min-width: 1280px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box .faq-box-main .faq-que {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 60px;
+  }
+}
+@media (min-width: 1536px) {
+  .section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box .faq-box-main .faq-que {
+    padding-left: 77px;
+  }
+}
+.section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box .faq-box-main .faq-que .faq-txt {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+.section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box .faq-box-main .faq-que .faq-txt svg {
+  height: 23px;
+  width: 23px;
+}
+.section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box .faq-box-main .faq-que .faq-txt h4 {
+  flex: 1 1 0%;
+}
+.section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box .faq-box-main .faq-que .faq-txt .minus {
+  display: none;
+}
+.section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box .faq-box-main .faq-ans {
+  display: none;
+  width: 100%;
+  max-width: 749px;
+  padding-top: 19px;
+  padding-left: 41px;
+}
+.section-faq-sec .container .faq-sec-row .faq-sec-right .faq-box:last-child {
+  padding-bottom: 0px;
+}

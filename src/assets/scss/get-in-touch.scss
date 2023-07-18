@@ -1,0 +1,38 @@
+.get-in-touch-sec {
+    .container {
+        @apply max-w-[1086px];
+        .get-in-touch-sec-row {
+            .get-in-touch-title {
+                h3 {
+                    @apply 2xl:text-font31 pb-9;
+                }
+            }
+            .get-in-touch-form {
+                .get-in-touch-form-top {
+                    @apply w-full flex flex-col md:flex-row gap-6 md:gap-7 lg:gap-[30px] xl:gap-[38px] mb-9;
+                    .form-fild {
+                        @apply w-full md:w-1/2;
+                    }
+                }
+                label {
+                    @apply font-jost text-font16 font-normal pb-[13px] inline-block;
+                    line-height: 1;
+                }
+                .message-box{
+                    @apply pb-[38px];
+                    textarea {
+                        @apply w-full border border-blackesh-1000 h-[115px] mb-[13px] px-[30px] font-jost text-font16 font-normal text-black resize-none;
+                    }
+                    p {
+                        a {
+                            @apply underline;
+                        }
+                    }
+                }
+                a {
+                    @apply max-w-[203px];
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.section-meet-sec .container {
+    max-width: 1536px
+}
+.section-meet-sec .container .meet-sec-row .meet-sec-img {
+    width: 100%
+}
+@media (min-width: 1024px) {
+    .section-meet-sec .container .meet-sec-row .meet-sec-img {
+        width: 51.067%
+    }
+}
+.section-meet-sec .container .meet-sec-row .meet-sec-content {
+    flex: 1 1 0%
+}

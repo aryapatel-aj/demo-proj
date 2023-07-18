@@ -1,0 +1,88 @@
+.section-story-sec .story-sec-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem
+}
+@media (min-width: 768px) {
+    .section-story-sec .story-sec-row {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px
+    }
+}
+@media (min-width: 1024px) {
+    .section-story-sec .story-sec-row {
+        gap: 3rem
+    }
+}
+@media (min-width: 1280px) {
+    .section-story-sec .story-sec-row {
+        gap: 4rem
+    }
+}
+@media (min-width: 1536px) {
+    .section-story-sec .story-sec-row {
+        gap: 105px
+    }
+}
+.section-story-sec .story-sec-row .story-sec-img {
+    width: 100%
+}
+@media (min-width: 640px) {
+    .section-story-sec .story-sec-row .story-sec-img {
+        width: 60%
+    }
+}
+@media (min-width: 768px) {
+    .section-story-sec .story-sec-row .story-sec-img {
+        width: 48.997%
+    }
+}
+.section-story-sec .story-sec-row .story-sec-content {
+    flex: 1 1 0%
+}
+.section-story-sec .story-sec-row .story-sec-content h2 {
+    margin-bottom: 1.25rem
+}
+@media (min-width: 768px) {
+    .section-story-sec .story-sec-row .story-sec-content h2 {
+        margin-bottom: 1.5rem
+    }
+}
+@media (min-width: 1024px) {
+    .section-story-sec .story-sec-row .story-sec-content h2 {
+        margin-bottom: 1.75rem
+    }
+}
+@media (min-width: 1280px) {
+    .section-story-sec .story-sec-row .story-sec-content h2 {
+        margin-bottom: 33px
+    }
+}
+@media (min-width: 1536px) {
+    .section-story-sec .story-sec-row .story-sec-content h2 {
+        font-size: 39px;
+        line-height: 120%
+    }
+}
+.section-story-sec .story-sec-row .story-sec-content h2 span {
+    font-style: italic
+}
+.section-story-sec .story-sec-row .story-sec-content p {
+    margin-bottom: 1.25rem
+}
+@media (min-width: 768px) {
+    .section-story-sec .story-sec-row .story-sec-content p {
+        margin-bottom: 1.5rem
+    }
+}
+@media (min-width: 1024px) {
+    .section-story-sec .story-sec-row .story-sec-content p {
+        margin-bottom: 1.75rem
+    }
+}
+@media (min-width: 1280px) {
+    .section-story-sec .story-sec-row .story-sec-content p {
+        margin-bottom: 33px
+    }
+}

@@ -1,0 +1,13 @@
+.section-meet-sec {
+    .container {
+        @apply max-w-[1536px];
+        .meet-sec-row {
+            .meet-sec-img {
+                @apply w-full lg:w-[51.067%];
+            }
+            .meet-sec-content {
+                @apply flex-1;
+            }
+        }
+    }
+}

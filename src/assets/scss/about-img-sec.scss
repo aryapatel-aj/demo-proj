@@ -1,0 +1,16 @@
+.about-img-sec {
+    .container {
+        @apply max-w-[1576px];
+        .about-img-row {
+            .about-img-title {
+                @apply w-full lg:w-[73.426%] mx-auto text-center pb-8 lg:pb-10 xl:pb-12 2xl:pb-[60px];
+                h3 {
+                    @apply 2xl:text-font31;
+                    span {
+                        @apply italic text-font25;
+                    }
+                }
+            }
+        }
+    }
+}

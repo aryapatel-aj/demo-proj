@@ -1,0 +1,17 @@
+.section-image-txt-sec .image-txt-sec-row .image-txt-sec-content {
+    flex: 1 1 0%
+}
+.section-image-txt-sec .image-txt-sec-row .image-txt-sec-content .image-txt-sec-main-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    max-width: 575px
+}
+.section-image-txt-sec .image-txt-sec-row .image-txt-sec-content .image-txt-sec-main-content h2 {
+    margin-bottom: 33px
+}
+.section-image-txt-sec .image-txt-sec-row .image-txt-sec-img {
+    width: 50%
+}

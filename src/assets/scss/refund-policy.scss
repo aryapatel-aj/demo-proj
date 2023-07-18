@@ -1,0 +1,49 @@
+.refund-policy-sec {
+    .container {
+        @apply max-w-[1083px];
+        .refund-policy {
+            .refund-policy-title {
+                @apply text-center;
+                h2 {
+                    @apply 2xl:text-font39 pb-6 md:pb-7 xl:pb-8 2xl:pb-9;
+                }
+            }
+            .refund-policy-main {
+                .rte {
+                    p {
+                        @apply pb-6 md:pb-7 xl:pb-8 2xl:pb-9;
+                        &:last-child {
+                            @apply pb-0;
+                        }
+                    }
+                    h5 {
+                        @apply pb-4 lg:pb-5;
+                    }
+                    ul {
+                        @apply max-w-[726px] w-full pb-6 md:pb-7 xl:pb-8 2xl:pb-9 list-decimal;
+                        li {
+                            @apply pl-5 text-font16 font-normal relative;    
+                            line-height: 1.5 !important;
+                            color: var(--theme-color);
+                            &::after {
+                                content: '';
+                                @apply absolute left-0 top-[10px] bg-black w-[2px] h-[2px];
+                            }
+                        }
+                        &:last-child {
+                            @apply pb-0;
+                        }
+                    }
+                    ol {
+                        @apply max-w-[726px] w-full pb-6 md:pb-7 xl:pb-8 2xl:pb-9 list-decimal pl-5 lg:pl-[30px];
+                        li {
+                            @apply text-font16 font-normal relative;
+                            line-height: 1.5 !important;
+                            color: var(--theme-color);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

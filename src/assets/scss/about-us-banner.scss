@@ -1,0 +1,14 @@
+.section-about-us-banner {
+    // @apply bg-gray-1400;
+    .about-us-banner {
+        .about-us-banner-content {
+            @apply flex-1 pl-[100px];
+        }
+        .about-us-banner-img {
+            @apply w-1/2;
+            img {
+                @apply w-full object-cover;
+            }
+        }
+    }
+}

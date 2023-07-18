@@ -1,0 +1,77 @@
+.get-in-touch-sec .container {
+  max-width: 1086px
+}
+.get-in-touch-sec .container .get-in-touch-sec-row .get-in-touch-title h3 {
+  padding-bottom: 2.25rem
+}
+@media (min-width: 1536px) {
+  .get-in-touch-sec .container .get-in-touch-sec-row .get-in-touch-title h3 {
+    font-size: 31px;
+    line-height: 120%
+  }
+}
+.get-in-touch-sec .container .get-in-touch-sec-row .get-in-touch-form .get-in-touch-form-top {
+  margin-bottom: 2.25rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 1.5rem
+}
+@media (min-width: 768px) {
+  .get-in-touch-sec .container .get-in-touch-sec-row .get-in-touch-form .get-in-touch-form-top {
+    flex-direction: row;
+    gap: 1.75rem
+  }
+}
+@media (min-width: 1024px) {
+  .get-in-touch-sec .container .get-in-touch-sec-row .get-in-touch-form .get-in-touch-form-top {
+    gap: 30px
+  }
+}
+@media (min-width: 1280px) {
+  .get-in-touch-sec .container .get-in-touch-sec-row .get-in-touch-form .get-in-touch-form-top {
+    gap: 38px
+  }
+}
+.get-in-touch-sec .container .get-in-touch-sec-row .get-in-touch-form .get-in-touch-form-top .form-fild {
+  width: 100%
+}
+@media (min-width: 768px) {
+  .get-in-touch-sec .container .get-in-touch-sec-row .get-in-touch-form .get-in-touch-form-top .form-fild {
+    width: 50%
+  }
+}
+.get-in-touch-sec .container .get-in-touch-sec-row .get-in-touch-form label {
+  display: inline-block;
+  padding-bottom: 13px;
+  font-family: Jost, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  line-height: 1
+}
+.get-in-touch-sec .container .get-in-touch-sec-row .get-in-touch-form .message-box {
+  padding-bottom: 38px
+}
+.get-in-touch-sec .container .get-in-touch-sec-row .get-in-touch-form .message-box textarea {
+  margin-bottom: 13px;
+  height: 115px;
+  width: 100%;
+  resize: none;
+  border-width: 1px;
+  border-color: #00000099;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Jost, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity))
+}
+.get-in-touch-sec .container .get-in-touch-sec-row .get-in-touch-form .message-box p a {
+  text-decoration-line: underline
+}
+.get-in-touch-sec .container .get-in-touch-sec-row .get-in-touch-form a {
+  max-width: 203px
+}

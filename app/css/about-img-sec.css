@@ -1,0 +1,35 @@
+.about-img-sec .container {
+    max-width: 1576px
+}
+.about-img-sec .container .about-img-row .about-img-title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 2rem;
+    text-align: center
+}
+@media (min-width: 1024px) {
+    .about-img-sec .container .about-img-row .about-img-title {
+        width: 73.426%;
+        padding-bottom: 2.5rem
+    }
+}
+@media (min-width: 1280px) {
+    .about-img-sec .container .about-img-row .about-img-title {
+        padding-bottom: 3rem
+    }
+}
+@media (min-width: 1536px) {
+    .about-img-sec .container .about-img-row .about-img-title {
+        padding-bottom: 60px
+    }
+    .about-img-sec .container .about-img-row .about-img-title h3 {
+        font-size: 31px;
+        line-height: 120%
+    }
+}
+.about-img-sec .container .about-img-row .about-img-title h3 span {
+    font-size: 25px;
+    line-height: 30px;
+    font-style: italic
+}

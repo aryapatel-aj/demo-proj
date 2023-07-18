@@ -1,0 +1,61 @@
+.primary-btn, .shopify-payment-button__button--unbranded, .shopify-challenge__button, .secondary-btn {
+    @apply font-normal py-0 px-[30px]  2xl:px-[42px] 4xl:px-[45px]  flex items-center justify-center cursor-pointer text-font15;
+    min-height: 45px;
+    min-width: 200px;
+    width: fit-content;
+    transition: all ease-in-out 0.3s 0s;
+    color: var( --theme-button-color);
+    background-color: var(--theme-button-background);
+    border: 1px solid var(--theme-button-border);    
+    svg {
+        @apply ml-[10px] 2xl:ml-[20px] w-[22px] 2xl:w-[24px];
+        height: auto;        
+    }  
+}
+.primary-btn, .secondary-btn {
+    line-height: 45px !important;
+    @screen 2xl {
+        line-height: 50px !important;
+    }
+}
+.secondary-btn {
+    svg {
+        path {
+            fill:  var( --theme-button-color);
+        }
+    }
+}
+.link-btn {
+    @apply bg-transparent text-font15 font-semibold py-0 px-0 cursor-pointer underline underline-offset-4 text-puce-100;
+    text-decoration-thickness: 1px;
+    width: fit-content;
+    svg {
+        @apply hidden;
+    }
+}
+.primary-btn, .secondary-btn {
+    &.uppercase {
+        text-transform: uppercase;
+    }
+    &.normal {
+        text-transform: none;
+    }
+    &.sharp {
+        border-radius: 0;
+    }
+    &.slightly-roundded {
+        border-radius: 5px;
+    }
+    &.roundded {
+        border-radius: 50px;
+    }
+    &.thick {
+        border-width: 3px;
+    }
+    &.standard {
+        border-width: 1.5px;
+    }
+}
+.w__full__btn {
+    width: 100%;
+}

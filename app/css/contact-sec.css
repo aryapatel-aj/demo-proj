@@ -1,0 +1,177 @@
+.section-contact-sec {
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0, 0, 0, 0.40);
+}
+.section-contact-sec .contact-sec-row {
+  gap: 2.5rem;
+}
+@media (min-width: 768px) {
+  .section-contact-sec .contact-sec-row {
+    gap: 3.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .section-contact-sec .contact-sec-row {
+    gap: 141px;
+  }
+}
+@media (min-width: 1280px) {
+  .section-contact-sec .contact-sec-row {
+    gap: 181px;
+  }
+}
+@media (min-width: 1536px) {
+  .section-contact-sec .contact-sec-row {
+    gap: 231px;
+  }
+}
+.section-contact-sec .contact-sec-row .contact-main {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 414px;
+  align-items: center;
+  gap: 2rem;
+}
+.section-contact-sec .contact-sec-row .contact-main .contact-img {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  background-color: rgba(0, 0, 0, 0.05);
+}
+@media (min-width: 768px) {
+  .section-contact-sec .contact-sec-row .contact-main .contact-img {
+    height: 55px;
+    width: 55px;
+  }
+}
+@media (min-width: 1024px) {
+  .section-contact-sec .contact-sec-row .contact-main .contact-img {
+    height: 65px;
+    width: 65px;
+  }
+}
+@media (min-width: 1280px) {
+  .section-contact-sec .contact-sec-row .contact-main .contact-img {
+    height: 75px;
+    width: 75px;
+  }
+}
+@media (min-width: 1536px) {
+  .section-contact-sec .contact-sec-row .contact-main .contact-img {
+    height: 85px;
+    width: 85px;
+  }
+}
+.section-contact-sec .contact-sec-row .contact-main .contact-img img {
+  height: 22px;
+  width: 22px;
+}
+@media (min-width: 768px) {
+  .section-contact-sec .contact-sec-row .contact-main .contact-img img {
+    height: 24px;
+    width: 24px;
+  }
+}
+@media (min-width: 1280px) {
+  .section-contact-sec .contact-sec-row .contact-main .contact-img img {
+    height: 28px;
+    width: 28px;
+  }
+}
+.section-contact-sec .contact-sec-row .contact-main .contact-content {
+  flex: 1 1 0%;
+}
+.section-contact-sec .contact-sec-row .contact-main .contact-content .contact-title {
+  padding-bottom: 0.5rem;
+}
+@media (min-width: 768px) {
+  .section-contact-sec .contact-sec-row .contact-main .contact-content .contact-title {
+    padding-bottom: 0.75rem;
+  }
+}
+@media (min-width: 1024px) {
+  .section-contact-sec .contact-sec-row .contact-main .contact-content .contact-title {
+    padding-bottom: 1rem;
+  }
+}
+@media (min-width: 1280px) {
+  .section-contact-sec .contact-sec-row .contact-main .contact-content .contact-title {
+    padding-bottom: 1.25rem;
+  }
+}
+.section-contact-sec .contact-sec-row .contact-main .contact-content .contact-title p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #00000099;
+}
+.section-contact-sec .contact-sec-row .contact-main .contact-content a {
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  font-family: Jost, sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+@media (min-width: 768px) {
+  .section-contact-sec .contact-sec-row .contact-main .contact-content a {
+    padding-bottom: 0.75rem;
+  }
+}
+@media (min-width: 1024px) {
+  .section-contact-sec .contact-sec-row .contact-main .contact-content a {
+    padding-bottom: 1rem;
+  }
+}
+@media (min-width: 1280px) {
+  .section-contact-sec .contact-sec-row .contact-main .contact-content a {
+    padding-bottom: 1.25rem;
+  }
+}
+.section-contact-sec .contact-sec-row .contact-main .contact-content a {
+  line-height: 120%;
+}
+.section-contact-sec .contact-sec-row .contact-main .contact-content p {
+  font-size: 14px;
+  line-height: 120%;
+}
+.section-contact-sec .contact-sec-row .contact-main:last-child::after {
+  content: none;
+}
+.section-contact-sec .contact-sec-row .contact-main::after {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+@media (min-width: 1024px) {
+  .section-contact-sec .contact-sec-row .contact-main::after {
+    position: absolute;
+    right: -70px;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 1px;
+  }
+}
+@media (min-width: 1280px) {
+  .section-contact-sec .contact-sec-row .contact-main::after {
+    right: -90px;
+  }
+}
+@media (min-width: 1536px) {
+  .section-contact-sec .contact-sec-row .contact-main::after {
+    right: -115px;
+  }
+}
+@media (min-width: 1024px) {
+  .section-contact-sec .contact-sec-row .contact-main::after {
+    content: "";
+  }
+}

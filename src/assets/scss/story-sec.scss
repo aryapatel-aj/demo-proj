@@ -1,0 +1,20 @@
+.section-story-sec {
+    .story-sec-row {
+        @apply items-center flex-col md:flex-row md:flex-wrap gap-10 md:gap-[30px] lg:gap-12 xl:gap-16 2xl:gap-[105px];
+        .story-sec-img {
+            @apply w-full sm:w-[60%] md:w-[48.997%];
+        }
+        .story-sec-content {
+            @apply flex-1;
+            h2 {
+                @apply 2xl:text-font39 mb-5 md:mb-6 lg:mb-7 xl:mb-[33px];
+                span {
+                    @apply italic;
+                }
+            }
+            p {
+                @apply mb-5 md:mb-6 lg:mb-7 xl:mb-[33px];
+            }
+        }
+    }
+}

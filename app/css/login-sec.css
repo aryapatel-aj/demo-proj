@@ -1,0 +1,44 @@
+.login-sec .login-sec-row .login-sec-right .login-form-sec .login-form-title {
+  padding-bottom: 35px
+}
+.login-sec .login-sec-row .login-sec-right .login-form-sec .login-form-title h2 {
+  padding-bottom: 33px
+}
+@media (min-width: 1536px) {
+  .login-sec .login-sec-row .login-sec-right .login-form-sec .login-form-title h2 {
+    font-size: 39px;
+    line-height: 120%
+  }
+}
+.login-sec .login-sec-row .login-sec-right .login-form-sec .login-form .login-fuild .form-fild {
+  padding-bottom: 30px
+}
+.login-sec .login-sec-row .login-sec-right .login-form-sec .login-form .login-fuild .form-fild label {
+  display: inline-block;
+  padding-bottom: 13px;
+  font-family: Jost, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #00000099;
+  line-height: 1
+}
+.login-sec .login-sec-row .login-sec-right .login-form-sec .login-form .login-fuild .form-fild:last-child {
+  padding-bottom: 0px
+}
+.login-sec .login-sec-row .login-sec-right .login-form-sec .login-form .forgot {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end
+}
+.login-sec .login-sec-row .login-sec-right .login-form-sec .login-form .submmit-btn {
+  margin-top: 35px;
+  padding-bottom: 15px
+}
+.login-sec .login-sec-row .login-sec-right .login-form-sec .login-form .submmit-btn:last-child {
+  margin-bottom: 0px;
+  padding-bottom: 0px
+}
+.login-sec .login-sec-row .login-sec-right .login-form-sec .login-form p a {
+  text-decoration-line: underline
+}
