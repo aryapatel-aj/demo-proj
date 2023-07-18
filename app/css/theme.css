@@ -710,6 +710,9 @@ select {
 .bg-blackesh-800 {
   background-color: #000000cc;
 }
+.bg-transparent {
+  background-color: transparent;
+}
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
