@@ -1,9 +1,13 @@
-.about-product .container-fluid .about-product-row .about-product-left {
+.about-product {
+    width: 100%;
+    background-color: transparent
+}
+.about-product .about-product-row .about-product-left {
     flex: 1 1 0%;
     padding-top: 50px;
     padding-bottom: 50px
 }
-.about-product .container-fluid .about-product-row .about-product-left .about-product-title {
+.about-product .about-product-row .about-product-left .about-product-title {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -14,22 +18,22 @@
     text-align: center
 }
 @media (min-width: 1024px) {
-    .about-product .container-fluid .about-product-row .about-product-left .about-product-title {
+    .about-product .about-product-row .about-product-left .about-product-title {
         padding-bottom: 2rem
     }
 }
 @media (min-width: 1280px) {
-    .about-product .container-fluid .about-product-row .about-product-left .about-product-title {
+    .about-product .about-product-row .about-product-left .about-product-title {
         padding-bottom: 2.5rem
     }
 }
 @media (min-width: 1536px) {
-    .about-product .container-fluid .about-product-row .about-product-left .about-product-title {
+    .about-product .about-product-row .about-product-left .about-product-title {
         max-width: 521px;
         padding-bottom: 49px
     }
 }
-.about-product .container-fluid .about-product-row .about-product-left .about-product-main {
+.about-product .about-product-row .about-product-left .about-product-main {
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -40,67 +44,67 @@
     padding-right: 1.25rem
 }
 @media (min-width: 1536px) {
-    .about-product .container-fluid .about-product-row .about-product-left .about-product-main {
+    .about-product .about-product-row .about-product-left .about-product-main {
         max-width: 521px
     }
 }
-.about-product .container-fluid .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list {
+.about-product .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list {
     flex: 1 1 0%
 }
-.about-product .container-fluid .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list .product-img {
+.about-product .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list .product-img {
     margin-bottom: 1.5rem
 }
 @media (min-width: 1280px) {
-    .about-product .container-fluid .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list .product-img {
+    .about-product .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list .product-img {
         margin-bottom: 1.75rem
     }
 }
 @media (min-width: 1536px) {
-    .about-product .container-fluid .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list .product-img {
+    .about-product .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list .product-img {
         margin-bottom: 31px
     }
 }
-.about-product .container-fluid .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list .product-img img {
+.about-product .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list .product-img img {
     width: 100%
 }
-.about-product .container-fluid .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list .product-details h5 {
+.about-product .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list .product-details h5 {
     margin-bottom: 9px
 }
-.about-product .container-fluid .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list .product-details .product-desc {
+.about-product .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list .product-details .product-desc {
     margin-bottom: 18px;
     display: flex;
     align-items: center;
     gap: 7px
 }
-.about-product .container-fluid .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list .product-price {
+.about-product .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list .product-price {
     margin-bottom: 1.5rem
 }
 @media (min-width: 1280px) {
-    .about-product .container-fluid .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list .product-price {
+    .about-product .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list .product-price {
         margin-bottom: 1.75rem
     }
 }
 @media (min-width: 1536px) {
-    .about-product .container-fluid .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list .product-price {
+    .about-product .about-product-row .about-product-left .about-product-main .product-slider .swiper-wrapper .about-product-list .product-price {
         margin-bottom: 31px
     }
 }
-.about-product .container-fluid .about-product-row .about-product-left .about-product-main .arrow-btn {
+.about-product .about-product-row .about-product-left .about-product-main .arrow-btn {
     --tw-border-opacity: 1;
     border-color: rgb(0 0 0 / var(--tw-border-opacity));
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity))
 }
-.about-product .container-fluid .about-product-row .about-product-right {
+.about-product .about-product-row .about-product-right {
     display: flex;
     width: 100%
 }
 @media (min-width: 1024px) {
-    .about-product .container-fluid .about-product-row .about-product-right {
+    .about-product .about-product-row .about-product-right {
         width: 48.438%
     }
 }
-.about-product .container-fluid .about-product-row .about-product-right img {
+.about-product .about-product-row .about-product-right img {
     width: 100%;
     flex: 1 1 0%;
     -o-object-fit: cover;
