@@ -691,9 +691,6 @@ select {
 .justify-center {
   justify-content: center;
 }
-.gap-\[301px\] {
-  gap: 301px;
-}
 .gap-5 {
   gap: 1.25rem;
 }
@@ -721,6 +718,10 @@ select {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 }
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -741,17 +742,6 @@ select {
   padding-top: 90px;
   padding-bottom: 90px;
 }
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-.pl-\[100px\] {
-  padding-left: 100px;
-}
 .text-center {
   text-align: center;
 }
@@ -769,14 +759,14 @@ select {
     padding: 2.5rem;
   }
 
-  .sm\:py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
   .sm\:px-\[30px\] {
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  .sm\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 }
 @media (min-width: 768px) {
@@ -822,16 +812,21 @@ select {
     align-items: center;
   }
 
-  .md\:gap-0 {
-    gap: 0px;
-  }
-
   .md\:gap-6 {
     gap: 1.5rem;
   }
 
+  .md\:gap-0 {
+    gap: 0px;
+  }
+
   .md\:p-10 {
     padding: 2.5rem;
+  }
+
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .md\:py-12 {
@@ -849,9 +844,8 @@ select {
     padding-right: 30px;
   }
 
-  .md\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+  .md\:pl-8 {
+    padding-left: 2rem;
   }
 
   .md\:pt-14 {
@@ -860,14 +854,6 @@ select {
 
   .md\:pb-\[50px\] {
     padding-bottom: 50px;
-  }
-
-  .md\:pl-10 {
-    padding-left: 2.5rem;
-  }
-
-  .md\:pl-8 {
-    padding-left: 2rem;
   }
 }
 @media (min-width: 1024px) {
@@ -892,6 +878,10 @@ select {
     align-items: center;
   }
 
+  .lg\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .lg\:gap-6 {
     gap: 1.5rem;
   }
@@ -900,8 +890,9 @@ select {
     gap: 3rem;
   }
 
-  .lg\:gap-10 {
-    gap: 2.5rem;
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .lg\:py-14 {
@@ -924,26 +915,12 @@ select {
     padding-right: 70px;
   }
 
-  .lg\:py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
-  .lg\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
-  .lg\:pt-16 {
-    padding-top: 4rem;
-  }
-
   .lg\:pl-14 {
     padding-left: 3.5rem;
   }
 
-  .lg\:pl-10 {
-    padding-left: 2.5rem;
+  .lg\:pt-16 {
+    padding-top: 4rem;
   }
 }
 @media (min-width: 1280px) {
@@ -956,20 +933,16 @@ select {
     right: -70px;
   }
 
+  .xl\:gap-\[60px\] {
+    gap: 60px;
+  }
+
   .xl\:gap-\[30px\] {
     gap: 30px;
   }
 
   .xl\:gap-\[70px\] {
     gap: 70px;
-  }
-
-  .xl\:gap-\[\] {
-    gap: ;
-  }
-
-  .xl\:gap-\[60px\] {
-    gap: 60px;
   }
 
   .xl\:py-16 {
@@ -987,16 +960,16 @@ select {
     padding-right: 100px;
   }
 
+  .xl\:pl-20 {
+    padding-left: 5rem;
+  }
+
   .xl\:pt-20 {
     padding-top: 5rem;
   }
 
   .xl\:pb-\[50\.5px\] {
     padding-bottom: 50.5px;
-  }
-
-  .xl\:pl-20 {
-    padding-left: 5rem;
   }
 
   @media (min-width: 1024px) {
@@ -1009,12 +982,17 @@ select {
 }
 @media (min-width: 1536px) {
 
+  .\32xl\:gap-\[301px\] {
+    gap: 301px;
+  }
+
   .\32xl\:gap-\[113px\] {
     gap: 113px;
   }
 
-  .\32xl\:gap-\[301px\] {
-    gap: 301px;
+  .\32xl\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .\32xl\:py-\[135px\] {
@@ -1027,11 +1005,6 @@ select {
     padding-bottom: 70px;
   }
 
-  .\32xl\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
   .\32xl\:py-\[100px\] {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -1040,6 +1013,10 @@ select {
   .\32xl\:px-\[165px\] {
     padding-left: 165px;
     padding-right: 165px;
+  }
+
+  .\32xl\:pl-\[100px\] {
+    padding-left: 100px;
   }
 
   .\32xl\:pt-20 {
@@ -1060,10 +1037,6 @@ select {
 
   .\32xl\:pb-\[114px\] {
     padding-bottom: 114px;
-  }
-
-  .\32xl\:pl-\[100px\] {
-    padding-left: 100px;
   }
 }
 html {
